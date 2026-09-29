@@ -1,9 +1,39 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Secrets
 .env
 .env.*
-.vscode/
-.DS_Store
-Thumbs.db
+!.env.example
+kaggle.json
+
+# TerraLogic datasets
+data_soil_raw/
+data_soil/
+
+# Generated ML artifacts / checkpoints
+*.h5
+*.hdf5
+checkpoints/
+logs/
+
+# GSD / agent planning state
+.planning/
+
+# Antigravity / Gemini local state
+.gemini/
+
+# Generated ML models
+*.keras
+*.joblib
