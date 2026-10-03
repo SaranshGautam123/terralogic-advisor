@@ -35,5 +35,7 @@ logs/
 .gemini/
 
 # Generated ML models
-*.keras
+# Generated ML models
 *.joblib
+*.keras
+!soil_mobilenetv2.keras
